@@ -4,12 +4,14 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "google"
     ],
     "parserOptions": {
         "ecmaVersion": 2020
     },
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "require-jsdoc": "off",
+        "max-len": "off"
     }
 }
