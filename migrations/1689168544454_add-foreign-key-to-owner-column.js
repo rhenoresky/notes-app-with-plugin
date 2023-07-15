@@ -24,4 +24,3 @@ exports.down = (pgm) => {
   // menghapus user baru.
   pgm.sql("DELETE FROM users WHERE id = 'old_notes'");
 };
-
